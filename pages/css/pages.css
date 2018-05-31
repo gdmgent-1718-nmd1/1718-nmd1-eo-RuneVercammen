@@ -8,7 +8,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #333;
     line-height: 1.5em;
-    padding: 25px;
+    padding-left: 25px;
+    
 }
 
 img {
@@ -16,6 +17,7 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .positief{
     color: green;
 }
@@ -29,3 +31,56 @@ img {
 a:hover {
 font-weight: bolder;
 }
+
+#logo{
+    width: 300px;
+}
+.nav{
+    width: 300px;
+    height: 1000px;
+    color: white;
+    background-color: hsla(327, 64%, 55%, 1);
+    text-align: right; 
+    padding-left: 35px;
+    padding-top: 30px;
+    padding-right: 35px;
+    margin-left: 0px;
+    margin-right: 50px;
+    float: left;
+    
+}
+
+h2{
+    font-size: 300%;
+    line-height: 100%;
+}
+h1{
+    padding: 25px;
+}
+#tekst{
+    font-family: 'Open Sans', sans-serif;
+}
+.titel{
+    color: hsla(327, 64%, 55%, 1);
+    font-weight: bolder;
+}
+.tussentitel{
+    color: #2595a2;
+    font-weight: bold;
+}
+#line-up1{
+    width: 400px;
+    margin: 10px;
+    display: block;
+}
+#line-up2{
+    width: 400px;
+    margin: 10px;
+    display: block;
+}
+#ligging{
+    width: 400px;
+    margin: 10px;
+    display: block;
+}
+
